@@ -51,21 +51,38 @@ a {
 .main-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #222020;
 }
-.main-content1 {
+.headline {
     font-family: 'Graphik LCG', sans-serif;
     font-size: 25px;
+    text-align: center;
     color: white;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
 
 }
-.main-content2 {
+.file {
     padding: 20px;
     color: white;
     background-color: #2f1ce4;
-    border: 3px , #2f1ce4;
+    border: 3px solid #2f1ce4;
 }
 
+.nextpage {
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+p {
+    text-indent: 30px;
+}
