@@ -129,3 +129,8 @@ figure {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+figcaption {
+    background-color: #222020;
+    color: white;
+    padding: 3px;
+}
